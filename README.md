@@ -1,6 +1,6 @@
 # Embedded OS Development
 
-This repository contains the source code for the **Embedded OS Development** project. Visit the "Embedded OS Development" section on my website for more details: https://kyungjae.com/embedded-os-development/.
+This repository contains the source code for the **Embedded OS Development** project. Visit the "Embedded OS Development" section on my website for more details: [https://kyungjae.com/notes/embedded-os-development/](https://kyungjae.com/notes/embedded-os-development/).
 
 
 
