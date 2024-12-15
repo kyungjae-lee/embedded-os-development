@@ -19,7 +19,7 @@ os_bin = build/os.bin
 all: $(os)
 
 clean:
-	@rm - fr build
+	@rm -fr build
 
 run: $(os)
 	qemu-system-arm -M realview-pb-a8 -kernel $(os)
