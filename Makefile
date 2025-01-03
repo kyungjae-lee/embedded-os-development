@@ -28,7 +28,7 @@ debug: $(os)
 	qemu-system-arm -M realview-pb-a8 -kernel $(os) -S -gdb tcp::1234,ipv4
 
 gdb:
-	arm-none-eabi-gdb
+	gdb-multiarch
 
 $(os): $(ASM_OBJS) $(LINKER_SCRIPT)
 	$(LD) -n -T $(LINKER_SCRIPT) -o $(os) $(ASM_OBJS)
