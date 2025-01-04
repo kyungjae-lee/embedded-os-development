@@ -9,3 +9,5 @@
 #define ARM_MODE_BIT_UND 0x1B
 #define ARM_MODE_BIT_SYS 0x1F
 #define ARM_MODE_BIT_MON 0x16
+
+#endif /* ARMV7_AR_H */
