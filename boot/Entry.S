@@ -64,6 +64,8 @@
 		msr cpsr, r1
 		ldr sp, =USRSYS_STACK_TOP
 
+		bl main
+
 	dummy_handler:
 		b .
 
