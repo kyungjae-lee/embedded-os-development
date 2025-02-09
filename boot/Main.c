@@ -5,7 +5,7 @@ static void Hw_init(void);
 
 void main(void)
 {
-	Hw_Init();
+	Hw_init();
 
 	uint32_t i = 100;
 

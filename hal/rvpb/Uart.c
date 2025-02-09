@@ -2,7 +2,7 @@
 #include "Uart.h"
 #include "HalUart.h"
 
-extern voltaile PL011_t *Uart;
+extern volatile PL011_t *Uart;
 
 void Hal_uart_init(void)
 {
