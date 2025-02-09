@@ -207,7 +207,7 @@ typedef union UARTDMACR_t
 typedef struct PL011_t
 {
     UARTDR_t    uartdr;         //0x000
-    UARTSR_t   	uartrsr;        //0x004
+    UARTSR_t   	uartsr;        	//0x004
     uint32_t    reserved0[4];   //0x008-0x014
     UARTFR_t    uartfr;         //0x018
     uint32_t    reserved1;      //0x01C
