@@ -31,7 +31,7 @@ uint8_t Hal_uart_get_char(void)
 	if (data & 0xFFFFFF00)
 	{
 		// Clear the error
-		Uart->uartsr.all = 0xFF;
+		Uart->uartrsr.all = 0xFF;
 		return 0;
 	}
 

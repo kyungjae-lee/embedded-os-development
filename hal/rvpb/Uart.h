@@ -14,7 +14,7 @@ typedef union UARTDR_t
 	} bits;
 } UARTDR_t;
 
-typedef union UARTSR_t
+typedef union UARTRSR_t
 {
 	uint32_t all;
 	struct {
@@ -24,7 +24,7 @@ typedef union UARTSR_t
 		uint32_t OE:1;		// 3
 		uint32_t reserved:28;
 	} bits;
-} UARTSR_t;
+} UARTRSR_t;
 
 typedef union UARTFR_t
 {
@@ -207,7 +207,7 @@ typedef union UARTDMACR_t
 typedef struct PL011_t
 {
     UARTDR_t    uartdr;         //0x000
-    UARTSR_t   	uartsr;        	//0x004
+    UARTRSR_t  	uartrsr;      	//0x004
     uint32_t    reserved0[4];   //0x008-0x014
     UARTFR_t    uartfr;         //0x018
     uint32_t    reserved1;      //0x01C
